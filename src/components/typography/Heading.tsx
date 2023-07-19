@@ -4,5 +4,5 @@ export const Heading = styled.h1`
     color: ${compositionConfig.text.color.regular};
     font-size: ${compositionConfig.text.fontSize.extraLarge};
     font-weight: bold;
-    font-family: "Calibri", sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
 `

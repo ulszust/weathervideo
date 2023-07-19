@@ -4,13 +4,14 @@ export const plPL = {
         question2: ' Legionowie?'
     },
     common: {
-        celsius: 'C'
+        celsius: ' C'
     },
     weatherStates: {
         raining: 'Pada deszcz!',
         snowing: "Pada śnieg!",
         thunderstorms: "Pada i jest burza!",
         sunny: "Nie pada!",
+        cloudy: "Pochmurno i nie pada!"
     },
     outro: {
         statement: "Bądź na bieżąco z pogodą!",

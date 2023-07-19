@@ -4,5 +4,5 @@ export const Regular = styled.p`
     color: ${compositionConfig.text.color.regular};
     font-size: ${compositionConfig.text.fontSize.medium};
     font-weight: bold;
-    font-family: "Calibri", sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
 `

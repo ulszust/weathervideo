@@ -6,3 +6,4 @@ export {VideoBackground} from './VideoBackground'
 export {Cloud} from './Cloud'
 export {Typography}
 export {VideoTitleBox} from './VideoTitleBox'
+export {WeatherBaseImage} from './WeatherBaseImage'
