@@ -1,7 +1,7 @@
 import {Composition} from 'remotion'
 import {IsItRaining} from './components'
 import {videoConfig} from './config'
-
+import './reset.css'
 
 export const RemotionRoot: React.FC = () => {
     // Destrukturyzacja, czyli wyciągamy poniżej z obiektu elementy które potrzebujemy

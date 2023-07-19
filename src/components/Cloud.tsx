@@ -26,5 +26,6 @@ export const Cloud: React.FunctionComponent<CloudProps> = ({
 export const BaseCloud = styled(Img)`
     width: 457px;
     height: 295px;
+    position: absolute;
 `
 

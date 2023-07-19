@@ -10,5 +10,7 @@ export const Title = styled.h2<TitleProps>`
         : compositionConfig.text.color.regular};
     font-size: ${compositionConfig.text.fontSize.large};
     font-weight: bold;
-    font-family: "Calibri", sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
+    line-height: 1.3;
+    display:inline;
 `
