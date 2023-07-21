@@ -24,7 +24,8 @@ export const videoConfig = {
 
 export const appConfig = {
     city: 'Legionowo',
-    weatherAPIkey: ''
+    weatherAPIkey: 'todo',
+    discrodURL: 'https://hfsbfjhslink'
 }
 
 export const compositionConfig = {

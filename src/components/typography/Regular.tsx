@@ -5,4 +5,6 @@ export const Regular = styled.p`
     font-size: ${compositionConfig.text.fontSize.medium};
     font-weight: bold;
     font-family: "Comic Sans MS", sans-serif;
+    line-height: 1.3;
+    white-space: pre-line;
 `

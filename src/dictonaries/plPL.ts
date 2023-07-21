@@ -14,8 +14,10 @@ export const plPL = {
         cloudy: "Pochmurno i nie pada!"
     },
     outro: {
+        question: "Chcesz wiedzieć\njak zaprogramować swojego bota?",
         statement: "Bądź na bieżąco z pogodą!",
-        note: "Wideo zostało wygenerowane automatycznie"
+        note: "Wideo zostało\nwygenerowane automatycznie",
+        discord: "Dołącz do naszej grupy na Discord:",
     }
 
 }
