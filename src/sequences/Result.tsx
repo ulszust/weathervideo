@@ -1,4 +1,4 @@
-import {VideoBackground, WeatherBaseImage, Typography, Cloud} from '../components'
+import {VideoBackground, WeatherBaseImage, Typography, RainCloud} from '../components'
 import {compositionConfig} from "../config";
 import {WeatherState} from "../common";
 import {useTranslations, useWeatherStateName} from "../hooks";
@@ -31,33 +31,33 @@ export const Result: React.FC<ResultProps> = (
                 </Typography.Heading>
             </TextContainer>
             </Container>
-            <Cloud
+            <RainCloud
                 rotate={15}
                 scale={0.6}
                 translateX={500}
                 translateY={-940}
             />
-            <Cloud
+            <RainCloud
                 rotate={-15}
                 scale={0.6}
                 translateX={-430}
                 translateY={-980}
             />
-            <Cloud
+            <RainCloud
                 translateX={0}
                 translateY={-600}
             />
-            <Cloud
+            <RainCloud
                 scale={0.8}
                 translateX={-530}
                 translateY={-300}
             />
-            <Cloud
+            <RainCloud
                 scale={0.7}
                 translateX={-580}
                 translateY={500}
             />
-            <Cloud
+            <RainCloud
                 scale={0.7}
                 translateX={560}
                 translateY={300}

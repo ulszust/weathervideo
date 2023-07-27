@@ -19,7 +19,7 @@ export const IsItRaining = () => {
                 name="Result"
             >
                 <Result
-                temperature={-10}
+                temperature={10}
                 weatherState={WeatherState.Raining}/>
             </Sequence>
             <Sequence

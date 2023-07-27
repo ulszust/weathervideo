@@ -7,3 +7,4 @@ export {Cloud} from './Cloud'
 export {Typography}
 export {VideoTitleBox} from './VideoTitleBox'
 export {WeatherBaseImage} from './WeatherBaseImage'
+export {RainCloud} from './RainCloud'
