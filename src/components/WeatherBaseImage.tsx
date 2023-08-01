@@ -11,12 +11,14 @@ export const WeatherBaseImage: React.FC<WeatherBaseImageProps> =
     ({weatherState}) => {
         switch (weatherState) {
             case WeatherState.Raining:
+            case WeatherState.Thunderstorm:
                 return (
                     <Umbrella src={Images.Umbrella}/>
                 )
-            case WeatherState.Thunderstorm:
-                return (<Thunderstorm src={Images.ChristmasTree}/>
+            case WeatherState.Snowing:
+                return (<ChristmasTree src={Images.ChristmasTree}/>
                 )
+
             case WeatherState.Cloudy:
             case WeatherState.Sunny:
                 return (
@@ -30,7 +32,7 @@ const Umbrella = styled(Img)`
     width: 656px;
     height: 496px;
 `
-const Thunderstorm = styled(Img)`
+const ChristmasTree = styled(Img)`
     width: 409px;
     height: 627px;
 `

@@ -4,7 +4,7 @@ export const plPL = {
         question2: ' Legionowie?'
     },
     common: {
-        celsius: ' C'
+        celsius: '°C'
     },
     weatherStates: {
         raining: 'Pada deszcz!',
