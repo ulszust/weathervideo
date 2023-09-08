@@ -1,54 +1,18 @@
-# Remotion video
+# Content of Project
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.gif">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+* [General info](#general-info)
+* [Technologies](#technologies)
 
-Welcome to your Remotion project!
+## General info
 
-## Commands
+A project in progress based on Codemask Academy course.<br>
+The result will be a short animated video showing the current weather in a specific location. 
 
-**Install Dependencies**
 
-```console
-npm i
-```
-
-**Start Preview**
-
-```console
-npm start
-```
-
-**Render video**
-
-```console
-npm run build
-```
-
-**Upgrade Remotion**
-
-```console
-npm run upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+## Technologies 
+<ul>
+<li>React.js</li> 
+<li>Remotion</li>
+<li>TypeScript</li>
+<li>Styled Components</li>
+</ul>
